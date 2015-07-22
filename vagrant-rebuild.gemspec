@@ -10,8 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ['kevin.cormier@simplisafe.com', 'garin.bedian@simplisafe.com']
 
   spec.summary       = "Stops and deletes all traces of the vagrant machine then starts and provisions the vagrant environment"
-  spec.homepage      = "http://example.com"
+  spec.homepage      = "https://github.com/simplisafe/vagrant-rebuild"
 
+  spec.license       = "BSD-2-Clause"
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
   if spec.respond_to?(:metadata)

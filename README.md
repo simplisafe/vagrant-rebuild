@@ -1,28 +1,17 @@
-# Rebuild
+# Vagrant Rebuild
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rebuild`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Plugin for vagrant that stops and deletes all traces of the vagrant machine then starts and provisions the vagrant environment. All options from destroy and up are still available.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+1. Install the latest version of [Vagrant](http://www.vagrantup.com/downloads.html)
+2. Install the latest version of vagrant-rebuild
 
-```ruby
-gem 'vagrant-rebuild'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install vagrant-rebuild
+    $ vagrant plugin install vagrant-rebuild
 
 ## Usage
 
-TODO: Write usage instructions here
+If the Vagrant Rebuild plugin is installed, `vagrant rebuild` will be available for use.
 
 ## Development
 
@@ -32,5 +21,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rebuild.
+Bug reports and pull requests are welcome on GitHub at https://github.com/simplisafe/vagrant-rebuild.
 
