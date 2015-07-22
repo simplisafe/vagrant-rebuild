@@ -65,9 +65,7 @@ module Rebuild
         o.on("--provision-with x,y,z", Array,
                 "Enable only certain provisioners, by type.") do |list|
           up_args.push("--provision-with")
-          list.each do |p|
-            up_args.push(p)
-          end
+          up_args.push(list.join(','))
         end
 
       end
