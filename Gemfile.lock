@@ -23,7 +23,7 @@ GIT
 PATH
   remote: .
   specs:
-    vagrant-rebuild (0.1.1)
+    vagrant-rebuild (0.1.2)
 
 GEM
   remote: https://rubygems.org/
@@ -101,6 +101,3 @@ PLATFORMS
 DEPENDENCIES
   vagrant!
   vagrant-rebuild!
-
-BUNDLED WITH
-   1.10.5
